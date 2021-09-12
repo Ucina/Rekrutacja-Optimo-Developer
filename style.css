@@ -1,0 +1,189 @@
+/*Global Settings*/
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    
+    font-family: Arial;
+    
+}
+
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    border: 5px solid black;
+    margin-bottom: 0;
+    float: left;
+}
+
+
+
+
+body{
+    background-color: green;
+}
+
+
+
+/*Figures Styling */
+
+
+
+.rombNumberOne, .rombNumberTwo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    transform: rotate(45deg);
+    transform-origin: 40% 100%;
+    margin: 0;
+    
+}
+
+
+
+.rectangleNumberOne, .rectangleNumberTwo{
+    background-color: darkblue;
+    width: 300px;
+    height: 50px;
+    border: 5px solid black;
+    margin-right: 30px;
+}
+
+
+
+.circle{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;;
+}
+
+
+
+.rectangle{
+    width: 300px;
+    height: 700px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+
+
+/*Left Side Position */
+
+
+
+.LeftSide{
+    float: left;
+    margin-right: 300px;
+}
+
+
+
+.rombNumberOne{
+    margin-left: 200px;
+}
+
+
+
+/*Center Position */
+
+
+
+.center{
+    align-items: center;
+    float: left;
+    display: flex;
+    margin-top: 150px;
+    
+}
+
+
+
+.rectangleNumberTwo{
+    margin-top: 30px;
+}
+
+
+
+/* Right Side Position */
+
+
+
+.RightSide{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+
+
+
+.rectangle{
+    
+    text-align: center;
+}
+
+
+
+/* Text Style */
+
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (max-width: 900px ){
+
+    .RightSide{
+        margin-top: -350px;
+    }
+    .rectangle{
+        background-color: darkred;
+    }
+    .center{
+        margin-left: 20px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 583px){
+    .rectangle{
+        background-color: blue;
+    }
+    .RightSide{
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 150px;
+    }
+}
+
+
+
+
